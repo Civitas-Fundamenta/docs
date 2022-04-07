@@ -55,3 +55,12 @@ There is an app (or option at least) for that!  You may have noticed on the Brid
 The first thing you need to do is obtain the transaction hash or "TXID" of the transaction on the blockchain that the teleport was initiated on. Refer to your wallets history to find this as it should be the very last transaction you sent. NOTE: Make sure you are connected the originating network with your wallet as this is required.  Once you have the TXID you simply just need to plug that into the energize tab and click "energize"!
 
 ![energize](img/energize.png)
+
+Once this is complete the network switch prompt (like shown above) will pop up and ask you to switch to the destination network and then the comfirmation for the pending teleport will appear.  Confrim and your teleport is complete.
+
+Of course if you need any further assitance please feel free to come ask for help in either our [Telegram](https://t.me/CivitasFundamenta) or [Discord](https://discord.gg/S7daQmW) communities where someone is always around to help.
+
+## How to Teleport using the Fundamenta Mobile App
+
+This section is about using our bridge via our easy to use mobile application.  It is MUCH simpler of a process than with the Dapp and we reccomend newer users take advatage of this.
+
