@@ -1,0 +1,8 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - Swap: Swap.md
+    - Bridge: Bridging.md
+    - Stake: Staking.md
+    - Mining: Mining.md
+theme: readthedocs
