@@ -28,7 +28,7 @@ This is absolutely the simplest way to get started and create a new wallet.  See
 
 ![setup](img/create.gif){: style="width:350px;display: block; margin: 0 auto"}
 
-After accepting the terms and conditions nd creating a pin if you do not require importing an old wallet all you need to do is click `NEW WALLET`.  It will then take you to another disclaimer that you must accept (WE CANNOT HELP YOU KEEP YOUR KEYS) and you will then have your fancy new multi-chain Ethereum Virtual Machine compatible wallet ready to explore!
+After accepting the terms and conditions nd creating a pin if you do not require importing an old wallet all you need to do is click `NEW WALLET`.  It will then take you to another disclaimer that you must accept (WE CANNOT HELP YOU KEEP YOUR WALLET SAFE FROM USER ERROR) and you will then have your fancy new multi-chain Ethereum Virtual Machine compatible wallet ready to explore!  Note that wallets created this way use the MetaMask seed schema.  
 
 ### Import Seed or Private Key
 
@@ -45,3 +45,21 @@ Once you have made your choice and entered your seed phrase or private key you w
 ![backup](img/backup.jpg){: style="width:350px;display: block; margin: 0 auto"}
 
 ### Scan a CiviPort Wallet QR
+
+Fundamenta Mobile also has the ability to both export and import QR Codes that can be generated in the app.  We will go into detail on how to backup your seed phrase or private keys in a later section.  
+
+Restoring with a QR is real easy.  All you need to do is select `SCAN A CIVIPORT WALLET QR` and accept the permission to allow the app to use your camera.  It will recognize the QR code and load the required info.  If you were smart and used QR encryption you must enter your encryption key before continuing to decrypt your QR. Once decrypted you will be brought to our backup disclaimer screen.  Give your wallet a name, select the slider to acknowledge the discliamer and you are all done!
+
+![import-gif](img/import.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+___
+___
+
+## Backing up your wallets
+
+The first thing you should do after creating a new wallet is back it up.  It cannot be stressed enough that without your recovery phrase, private keys or backup QR code you cannot restore your wallets funds in the case of a lost device or data loss/corruption.  This is the only way to ensure continued accesss to your funds.  
+
+### SECURITY NOTE: 
+It is imperitive that you take the security and storage of your seed phrase/private keys seriously. Aside from the fact that if they are misplaced or dmamged you could lose access to your funds,  there is also the possibility of an attacker obtaining your seed phrase/private keys and if stored unencrypted you could be at a total loss.
+
+
