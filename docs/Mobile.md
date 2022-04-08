@@ -32,4 +32,16 @@ After accepting the terms and conditions nd creating a pin if you do not require
 
 ### Import Seed or Private Key
 
+When choosing the Seed or Private Key option you will be be brought to an input and selection screen.  This is where you will need to select either the `PRIVATE KEY` or `SEED PHRASE` option.  Please note that Fundamenta Mobile is compatible with MetaMask seed phrases making switching over simple and easy.  
+
+![key-seed](img/key_seed.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
+Seed Phrases consist of 12 words and look something like `Juice Tanker Yellow Garage Auto Ready Great Restore Unless Treaty Indigo Wheat`
+
+Private Keys will consist of of 64 Bit Random Hex and look something like `652a97845864a14281e6a28baa6b993fb3c81db6dd3b51303caaf2ebce3d39b6`
+
+Once you have made your choice and entered your seed phrase or private key you will arrive on our final disclaimer.  This one also lets you know that it is you and not Civitas Fundamenta who is resposnsible for proper backup and storage of your seed phrase or private key.
+
+![backup](img/backup.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
 ### Scan a CiviPort Wallet QR
