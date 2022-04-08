@@ -18,7 +18,7 @@ First we need to make sure we are connected to the dapp with our wallet by click
 
 If on Desktop you will be given the choice to use Metamask's browser extension or Wallet Connect to connect.
 
-![option](img/option.png){: style="height:400x;width:300px;display: block; margin: 0 auto"}
+![option](img/option.png){: style="height:width:300px;display: block; margin: 0 auto"}
 
 ### Select Token and Network
 
@@ -30,11 +30,11 @@ Next we need to select the token we wish to teleport and the network we wish to 
 
 Once the token and network have ben selected enter the amount you wish to move across chains and click teleport!  Once you have done this if using Metamask a confirmation will pop up asking to confirm the teleport.   
 
-![maskconf](img/maskconf.png){: style="height:400x;width:350px;display: block; margin: 0 auto"}
+![maskconf](img/maskconf.png){: style="width:350px;display: block; margin: 0 auto"}
 
 Once confirmed and the transaction has processed the Dapp should automatically prompt you to switch networks to the destination blockchain.
 
-![netswitch](img/netswitch.png){: style="height:400x;width:350px;display: block; margin: 0 auto"}
+![netswitch](img/netswitch.png){: style="width:350px;display: block; margin: 0 auto"}
 
 After switching networks the Dapp should automatically prompt you with another Metamask confirmation to allow the tokens to be energized on the destination blockchain.  In some cases some more confirmations may be required before the tokens can be energized.  In this case you will see a warning telling you how many more blocks there are to go before the teleport can be energized.
 
