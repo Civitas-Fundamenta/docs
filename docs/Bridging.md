@@ -14,11 +14,11 @@ The purpose of this part of the guide is to guide you through the teleportation 
 
 First we need to make sure we are connected to the dapp with our wallet by clicking the connect button in the top right of the interface.
 
-![connect button](img/connect.png)
+![connect button](img/connect.png){: style="display: block; margin: 0 auto"}
 
 If on Desktop you will be given the choice to use Metamask's browser extension or Wallet Connect to connect.
 
-![option](img/option.png)
+![option](img/option.png){: style="height:400x;width:300px;display: block; margin: 0 auto"}
 
 ### Select Token and Network
 
@@ -28,21 +28,21 @@ Next we need to select the token we wish to teleport and the network we wish to 
 
 ### Time to teleport
 
-Once the token and network have ben selected enter the amount you wish to move across chains and click teleport!  Once you have done this if using Metamask a confirmation will pop up asking to confirm the teleport.
+Once the token and network have ben selected enter the amount you wish to move across chains and click teleport!  Once you have done this if using Metamask a confirmation will pop up asking to confirm the teleport.   
 
-![maskconf](img/maskconf.png)
+![maskconf](img/maskconf.png){: style="height:400x;width:350px;display: block; margin: 0 auto"}
 
 Once confirmed and the transaction has processed the Dapp should automatically prompt you to switch networks to the destination blockchain.
 
-![netswitch](img/netswitch.png)
+![netswitch](img/netswitch.png){: style="height:400x;width:350px;display: block; margin: 0 auto"}
 
 After switching networks the Dapp should automatically prompt you with another Metamask confirmation to allow the tokens to be energized on the destination blockchain.  In some cases some more confirmations may be required before the tokens can be energized.  In this case you will see a warning telling you how many more blocks there are to go before the teleport can be energized.
 
-![b2g](img/b2g.png)
+![b2g](img/b2g.png){: style="display: block; margin: 0 auto"}
 
 After the required blocks have passed the dapp should automatically prompt you to energize and accept the transaction.  If all is well you will see an alert telling you it has been successful.
 
-![success](img/success.png)
+![success](img/success.png){: style="display: block; margin: 0 auto"}
 
 ### Troubleshooting with the Teleports
 
@@ -59,6 +59,9 @@ The first thing you need to do is obtain the transaction hash or "TXID" of the t
 Once this is complete the network switch prompt (like shown above) will pop up and ask you to switch to the destination network and then the comfirmation for the pending teleport will appear.  Confrim and your teleport is complete.
 
 Of course if you need any further assitance please feel free to come ask for help in either our [Telegram](https://t.me/CivitasFundamenta) or [Discord](https://discord.gg/S7daQmW) communities where someone is always around to help.
+
+___
+___
 
 ## How to Teleport using the Fundamenta Mobile App
 

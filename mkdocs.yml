@@ -1,8 +1,12 @@
 site_name: Civitas Fundamenta
 nav:
     - Home: index.md
+    - Mobile Setup: Mobile.md
     - Swap: Swap.md
     - Bridge: Bridging.md
     - Stake: Staking.md
     - Mining: Mining.md
 theme: readthedocs
+
+markdown_extensions:
+  - attr_list
