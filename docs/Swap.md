@@ -4,8 +4,8 @@ Untitled Swap powered by Civitas Fundamenta is a one stop shop to get prices as 
 
 ![Swap Interface](img/swap.png)
 
-## Swap via the Fundamenta Mobile App
-
 ## Swap via the Fundamenta Dapp
+
+## Swap via the Fundamenta Mobile App
 
 ## Swap via the dedicated interface
