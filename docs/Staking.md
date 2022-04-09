@@ -89,7 +89,7 @@ Once you click the stake button the all so familiar MetaMask confirmation modal 
 
 Compounding is absolutely the best thing to do if your goal is to grow your stake as much as possible.  Rewards accrue for your position every 24 hours and you will have access to either `TAKE` or `COMPOUND` those rewards at any time you like.  Seeing as how these daily rewards are based on your staked balance everytime you compound or add to an existing position making the amount staked rise as will your daily rewards.
 
-To do this we navigate to staking page of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the `TAKE` and `COMPOUND` options on the top right of the staking card on screen.
+To do this we navigate to [staking page](https://app.fundamenta.network/?#/stake) of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the `TAKE` and `COMPOUND` options on the top right of the staking card on screen.
 
 ![take_compound](img/take_compound.png){: stytle="width:350px;display: block; margin: 0 auto"}
 
