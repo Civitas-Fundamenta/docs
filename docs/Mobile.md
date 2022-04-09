@@ -70,9 +70,17 @@ Wallet management in Fundamenta Mobile happens all in one place. To get to the a
 
 Once you have entered the Accounts management screen you will be presented with two types of address schema that Fundamenta Mobile supports.  `Seed Generated` or `Imported`.  Now remember if you chose to create a new wallet with the app and not import one your address will be seed generated. Likewise if you were to import a seed from MetaMask it would also be located under the seed generated option.  If you were to import a private key only (which are avaialbe for every ethereum address in existence) it would appear under the Imported option.
 
-It is the same procedure for either option to backup.  On the account managment screen simply choose the double arrow down in any of the areas to reveal either the wallets seed phrase or accounts private keys.
+It is the same procedure for either option to backup.  On the account managment screen simply choose the double arrow down in any of the areas to reveal either the wallets seed phrase or accounts exports page.
 
-![accounts](img/accounts.jpg){: style="width:350px;display: block; margin: 0 auto"}
+There are a few ways this can be accomplished now.
+ 
+* You can chose to reveal the seed phrase or private key and long click it to copy it to the clipboard ***This is generally considered insecure*** Once copied to the clipboard the seed phrase or private key can be stored any way the user chooses.
+
+* You can use the integrated QR Export too to create an encrypted QR Code of either your seed phrase or chosen private key.  This can then be exported by any of the apps on ypur phone or even printed like a paper wallet. NOTE: If encrypting your QR code make sure you can remember or have a backup of your password because without it you WILL lose access to your funds.
+
+### Both of these methods are shown below
+
+![accounts](img/backup-account.gif){: style="width:350px;display: block; margin: 0 auto"}
 
 ### Important Note
 Seed Generated addressess and all those created after are what is called `deterministic`.  The long and the skinny of this is the first address is derived from the seed as is each address after.  This means if you are using the seed genrated wallet option you could create 12 addresses, delete the apps data, restore the wallet with the seed phrase and continue to create another 12 addresses you will find that will all be the same as before.  This is an obvious advantage to using the seed system because it allows you to have a single phrase for back up for an almost infiite amount of wallet/private key pairs.
