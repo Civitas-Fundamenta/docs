@@ -65,5 +65,22 @@ ___
 
 ## How to Teleport using the Fundamenta Mobile App
 
-This section is about using our bridge via our easy to use mobile application.  It is MUCH simpler of a process than with the Dapp and we reccomend newer users take advatage of this.
+This section is about using our bridge via our easy to use mobile application.  It is MUCH simpler of a process than with the Dapp and we reccomend newer users take advatage of this. To use the bridge via the app with a compatible token all you need to to is select it from your balance screen.  Make sure you select the network you want to teleport from. If the token is CiviPort compatible the option `TELEPORT` will be available for selection along with `TRANSFER` and `SWAP`.  I think you can guess what is next but just in case you don't we will show you.
 
+![duh](img/coin_select.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+### Initiating a teleport
+
+Now that you are where you need to be to initiate a teleport you are only a few short steps away from being a multi-chain master. First you need to select the network you wish to teleport your coins too. Click where you see `Select Network` and a modal will appear where you can choose one of our 7 supported networks. After selecting the destination you just need to enter the amount you wish to teleport.  Click Teleport and watch the magic happen!
+
+![teleport_initiate_mobile](img/teleport_mobile.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+### Energizing a teleport
+
+With Fundamenta Mobile you have the option of energizing teleports yourself or having the app attempt to do that for you automatically. You can configure this in the settings section available by clicking the gear icon in the top right corner. In either case the end result is the same. That being said... For the sake of this tutorial we will operate with automatic teleport energizing off. The only difference?  You need to click something. Yup thats it.  
+
+Now to buissness. Once the teleport has been initiated and the first part of the transaction is complete we need to navigate to the teleports screen.  You can do this by clicking the second icon from the right on the bottom navbar. Once there you will see your teleport at the top of the list (if its not your first one) with the status `Queued`.  All you need to do to energize the teleport on the destination is click it.  Once clicked it will contact the validator swarm.  There is a minimum amount of blocks that need to be created before a teleport can be imitiated.  If there is still some time remaining the app will let you know.  In this case we just need to wait.  Once the app contacts the swarm again and is able to achieve concensus with the other swarm nodes our all so familiar gas and transaction confirmation prompt will appear and ask if you want to energize.  Select yes and we are of to the races.  Switch to the transaction history page which is the icon directly to the left of the teleport one you are currently on to watch it finish.  Once complete you have successfully traversed blockchains and can freely use those tokens as you please.  And just becasue we all like to watch things here it is all in action.
+
+![energize_mobile](img/energize_mobile.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+And thats it! Within a few clicks you can traverse chains with ease all from the comfort of the toilet or... you know wherever you use your mobile device the most.
