@@ -23,5 +23,7 @@ As is a current theme with our products it is by far the easiest to create and m
 Once you arrive on the staking screen choose your desired network and click the card. it will take you to the Fundamenta Staking screen for your selected network.  Here you will be presented with 4 selection options `TAKE`, `COMPOUND`, `ADD` and `REMOVE`.  Hopefully these are self explanitory but we will give a brief explanation for each.
 * `TAKE` will allow you to withdraw any pending rewards you currently have to your acount
 * `COMPOUND` will all you to roll any pending rewards into your current staking position as long as the account is still under the stake cap per account limit.
-* `ADD`
+* `ADD` will allow you to add more Fundamenta to your current staking position. NOTE: you will not be able to add to your position if you have pending rewards.  You must take or compund them first. 
+
+
 
