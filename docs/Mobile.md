@@ -62,4 +62,21 @@ The first thing you should do after creating a new wallet is back it up.  It can
 ### SECURITY NOTE: 
 It is imperitive that you take the security and storage of your seed phrase/private keys seriously. Aside from the fact that if they are misplaced or dmamged you could lose access to your funds,  there is also the possibility of an attacker obtaining your seed phrase/private keys and if stored unencrypted you could be at a total loss.
 
+## Backup Procedure
 
+Wallet management in Fundamenta Mobile happens all in one place. To get to the account management screen go ahead and click the Blockie or address on the top of the applications screen shown below.
+
+![address-bar](img/walletman.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+Once you have entered the Accounts management screen you will be presented with two types of address schema that Fundamenta Mobile supports.  `Seed Generated` or `Imported`.  Now remember if you chose to create a new wallet with the app and not import one your address will be seed generated. Likewise if you were to import a seed from MetaMask it would also be located under the seed generated option.  If you were to import a private key only (which are avaialbe for every ethereum address in existence) it would appear under the Imported option.
+
+It is the same procedure for either option to backup.  On the account managment screen simply choose the double arrow down in any of the areas to reveal either the wallets seed phrase or accounts private keys.
+
+![accounts](img/accounts.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
+### Important Note
+Seed Generated addressess and all those created after are what is called `deterministic`.  The long and the skinny of this is the first address is derived from the seed as is each address after.  This means if you are using the seed genrated wallet option you could create 12 addresses, delete the apps data, restore the wallet with the seed phrase and continue to create another 12 addresses you will find that will all be the same as before.  This is an obvious advantage to using the seed system because it allows you to have a single phrase for back up for an almost infiite amount of wallet/private key pairs.
+
+## CONCLUSION
+
+BACK UP YO DAMN WALLETS
