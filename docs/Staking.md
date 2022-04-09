@@ -6,7 +6,7 @@ Fundamenta staking is available on every single chain we support at the same APY
 
 ![staking](img/staking.png){: stytle="width:350px;display: block; margin: 0 auto"}
 
-# A FEW WARNINGS
+## A FEW WARNINGS
 
 Fundamenta's staking contracts accross networks have a few quirks that you need to be aware of to maximize rewards and make sure you are not locked into a position when you do not want to be.
 
@@ -20,7 +20,7 @@ As is a current theme with our products it is by far the easiest to create and m
 
 ![mobile staking](img/mobile_staking.jpg){: style="width:350px;display: block; margin: 0 auto"}
 
-Once you arrive on the staking screen choose your desired network and click the card. it will take you to the Fundamenta Staking screen for your selected network.  Here you will be presented with 4 selection options `TAKE`, `COMPOUND`, `ADD` and `REMOVE`.  Hopefully these are self explanitory but we will give a brief explanation for each.
+Once you arrive on the staking screen choose your desired network and click the card. it will take you to the Fundamenta Staking screen for your selected network.  Here you will be presented with 4 tab selection options `TAKE`, `COMPOUND`, `ADD` and `REMOVE`.  Hopefully these are self explanitory but we will give a brief explanation for each.
 
 * `TAKE` will allow you to withdraw any pending rewards you currently have to your acount
 
@@ -31,6 +31,32 @@ Once you arrive on the staking screen choose your desired network and click the 
 * `REMOVE` will allow you to partially or completely remove your staked position.  Unlike `ADD` you do not need to `TAKE` or `COMPOUND` any pending rewards as these are automatucally withdrawn with your stake.  **NOTE: IF YOU TAKE OR COMPOUND REWARDS YOUR STAKE LOCK PERIOD IS RESET TO 48 HOURS AND YOU WILL NEED TO WAIT BEFORE YOU CAN REMOVE YOUR STAKED FUNDAMENTA.  YOU HAVE BEEN WARNED!!!**
 
 ![mobile staking action](img/mobile_staking_action.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
+### Adding a new position
+
+If you are a new staker choose the `ADD` select the amount of Fundamenta you want to stake and complete creating a position by clicking add below.  A prompt will appear asking you which gas level you would like to use (Slow, Average, Fast). It will have some information about the fees and give you the option to accept or decline the transaction.
+
+![mobile add stake](img/add_stake.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
+Make sure to check back every day so see your rewards grow every 24 hours.  If you compound daily your position will grow faster. YAY Math!
+
+### Compounding
+
+**Fees Suck**. This is the reality and no one likes paying them.  They most definitely do not enjoy having to pay them twice which is what users would have to do if there was not a way to compound your pending rewards.  In fact V1 of our staking contract did not have a compund function and that was the actual reality.  Thankfully we upgraded shortly after launch to staking V2 with this fancy new compounding ability.  Everyday you will have the ability to compund your pending rewards and because your daily rewards are based on the amount of Fundamenta staked compunding everyday will yield more and more every time you do.  You can compound pending rewards at any time in any amount so long as the amount will not bring your staked position over the configured cap per account currently and 120,000 FMTA.
+
+The process of compunding is quite simple.  Navigate to the Staking screen for the network of your choice, select the `COMPOUND` Tab and click the following button.  The gas selection and transaction confirmation prompt will appear. Select yes and wait for the transaction to comoplete. Once complete if you do not see your pending rewards now as part of your staked position slide the screen down to trigger a refresh and you should now show the new staked balance.
+
+### Adding to an existing position
+
+So you want to add more Fundamenta to your staked position to get even more of those sweet sweet rewards. Good Choice! Well good news you already know how to do this!  Just navigate to the add Tab on the staking screen of the network of your choice and do thew same thing you did while adding the original position.  Just make sure you **DO NOT** have any pending rewards because adding to an existing position while a user has pending rewards is not possible.  If you do have pending rewards simply `TAKE` or `COMPOUND` them and once complete you can freely add to your position so long as it does not bring the account over the stake cap per account.
+
+![add_mobile](img/add_mobile.gif){: style="width:350px;display: block; margin: 0 auto"}
+
+### Removing all or part of your staked position
+
+So it's time to unstake and do something.  No Problem!  So long as you haven't compounded or taken any pending rewards in the last 48 hours that is.  When placing a new position a lock is activated that lasts approximately 48 hours.  That lock is deactivated after 48 hours and users can remove any amount from their position at will HOWEVER every time you decide to take or compound any pending rewards this stake lock is **REACTIVATED**.  You will then need to wait for the lock to deactivate before you can remove any of your staked position.  Ok great... but what if my position is unlocked and I do have pending rewards? (Spoiler Alert: You Will) Simply remove the amount you wish and all pending rewards will be removed with them.  
+
+As always on mobile this process is a snap. Navigate to the staking page of the network of your choice, select `REMOVE` and enter the amount you wish to remove.  Select the remove button below and wait for the transaction to complete.  You have now removed part or all of your position and any pending rewards if there were any.  NOTE: If you only remove part of your position your stake lock period is reset to 48 hours.
 
 
 
