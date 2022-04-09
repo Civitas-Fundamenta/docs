@@ -4,8 +4,6 @@ Users who hold the Fundamenta token have the ability to choose and stake their t
 
 Fundamenta staking is available on every single chain we support at the same APY.  Just buy or teleport Fundamenta to the network of your choice and use the Dapp or Mobile app to get staking.
 
-![staking](img/staking.png){: stytle="width:350px;display: block; margin: 0 auto"}
-
 ## A FEW WARNINGS
 
 Fundamenta's staking contracts accross networks have a few quirks that you need to be aware of to maximize rewards and make sure you are not locked into a position when you do not want to be.
@@ -58,6 +56,47 @@ So it's time to unstake and do something.  No Problem!  So long as you haven't c
 
 As always on mobile this process is a snap. Navigate to the staking page of the network of your choice, select `REMOVE` and enter the amount you wish to remove.  Select the remove button below and wait for the transaction to complete.  You have now removed part or all of your position and any pending rewards if there were any.  NOTE: If you only remove part of your position your stake lock period is reset to 48 hours.
 
+___
+___
 
+## Using the Dapp online to stake
+
+### Disclaimer
+
+While we **REALLY REALLY REALLY** want you to use our mobile app for all things Web3 we understand some users just don't do crypto on mobile.  There is also the idea users just like the convenience of both offerings.  So in that spirit we will go over how to stake the Fundamenta Token using the Dapp online.  
+
+First things first **DON'T GET PHISHED!!!** If you go all nemo and connect your wallet to a malicious version claiming to be us getting caught in it's net **WE WILL NOT BE ABLE TO HELP YOU** and you will likely lose for than your FMTA.
+
+Always ensure you are coneccted to our offical url at **[https://app.fundamenta.network](https://app.fundamenta.network)** before connecting or doing anything.
+
+The following tutorial assumes user will be using the MetaMask desktop extension
+
+### Navigate to the staking page
+
+Page navigation for the app is located floating on the bottom.  Select Stake from the Navbar to arrive on the staking page.
+
+![staking](img/staking.png){: stytle="width:350px;display: block; margin: 0 auto"}
+
+### Placing a new position
+
+Adding a new position or to an existing one is relatively easy.  As we can see in the above example of the staking page there is an input box that shows our current Fundamenta balance and a `max` button.  Enter the amount you wish or opt to choose the max button.  Once the amount is entered you will be able to click the `Stake` button and place a new position.  
+
+**NOTE:** There is a cap to the amount of tokens a single account can stake. Currently this set at 120,000 FMTA.
+
+Once you click the stake button the all so familiar MetaMask confirmation modal will appear asking you to complete the contract interaction.  Choose yes and once its complete you will have placed a staking position. Congratulations!
+
+### Compounding pending rewards
+
+Compounding is absolutely the best thing to do if your goal is to grow your stake as much as possible.  Rewards accrue for your position every 24 hours and you will have access to either `TAKE` or `COMPOUND` those rewards at any time you like.  Seeing as how these daily rewards are based on your staked balance everytime you compound or add to an existing position making the amount staked rise as will your daily rewards.
+
+To do this we navigate to staking page of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the `TAKE` and `COMPOUND` options on the top right of the staking card on screen.
+
+![take_compound](img/take_compound.png){: stytle="width:350px;display: block; margin: 0 auto"}
+
+### Taking Pending Rewards
+
+### Adding stake to an existing position
+
+Adding to an existing position is possible as well.  The process is exactly the same as placing a new position with one caveat.  Users cannot have any pending rewards. If a user wants to add to a position and has pending rewards they must `TAKE` or `COMPOUND` those rewards first.  Once that is completed users are free to add to thier position so long as it does not bring the account over the configured stake cap per account.
 
 
