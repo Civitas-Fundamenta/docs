@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Bridge - Civitas Fundamenta</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Bridge";
+        var mkdocs_page_input_path = "Bridging.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Civitas Fundamenta
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Mobile/">Mobile Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Swap/">Swap</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Bridge</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-teleport-using-the-fundamenta-mobile-app">How to Teleport using the Fundamenta Mobile App</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#initiating-a-teleport">Initiating a teleport</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#energizing-a-teleport">Energizing a teleport</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-teleport-fmta-using-the-dapp">How to teleport FMTA using the Dapp</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#connect">Connect</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#select-token-and-network">Select Token and Network</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#time-to-teleport">Time to teleport</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#troubleshooting-with-the-teleports">Troubleshooting with the Teleports</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#energizing-manually">Energizing Manually</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Staking/">Stake</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Mining/">Mining</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Civitas Fundamenta</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Bridge</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="teleport-tokens-between-blockchains-using-civitas-fundamentas-bridge-civiport">Teleport tokens between blockchains using Civitas Fundamenta's bridge CiviPort</h1>
+<p>Using our bridge users can Move FMTA and others from one blockchain to another.  When you move tokens between blockchains the token is "Dematerialized" or burned on the originating blockchain and is then "Energized" or minted on the destination blockchain. </p>
+<p>Our bridge like all our other offerings are available on our Mobile App as well as our Dapp but things are much more of a seamless experience from our app so we highly reccomend it. NFA</p>
+<p>The purpose of this part of the guide is to guide you through the teleportation process on both platforms.</p>
+<p><img alt="bridge Dapp" src="../img/bridge.png" /></p>
+<h2 id="how-to-teleport-using-the-fundamenta-mobile-app">How to Teleport using the Fundamenta Mobile App</h2>
+<p>This section is about using our bridge via our easy to use mobile application.  It is MUCH simpler of a process than with the Dapp and we reccomend newer users take advatage of this. To use the bridge via the app with a compatible token all you need to to is select it from your balance screen.  Make sure you select the network you want to teleport from. If the token is CiviPort compatible the option <code>TELEPORT</code> will be available for selection along with <code>TRANSFER</code> and <code>SWAP</code>.  I think you can guess what is next but just in case you don't we will show you.</p>
+<p><img alt="duh" src="../img/coin_select.gif" style="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="initiating-a-teleport">Initiating a teleport</h3>
+<p>Now that you are where you need to be to initiate a teleport you are only a few short steps away from being a multi-chain master. First you need to select the network you wish to teleport your coins too. Click where you see <code>Select Network</code> and a modal will appear where you can choose one of our 7 supported networks. After selecting the destination you just need to enter the amount you wish to teleport.  Click Teleport and watch the magic happen!</p>
+<p><img alt="teleport_initiate_mobile" src="../img/teleport_mobile.gif" style="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="energizing-a-teleport">Energizing a teleport</h3>
+<p>With Fundamenta Mobile you have the option of energizing teleports yourself or having the app attempt to do that for you automatically. You can configure this in the settings section available by clicking the gear icon in the top right corner. In either case the end result is the same. That being said... For the sake of this tutorial we will operate with automatic teleport energizing off. The only difference?  You need to click something. Yup thats it.  </p>
+<p>Now to buissness. Once the teleport has been initiated and the first part of the transaction is complete we need to navigate to the teleports screen.  You can do this by clicking the second icon from the right on the bottom navbar. Once there you will see your teleport at the top of the list (if its not your first one) with the status <code>Queued</code>.  All you need to do to energize the teleport on the destination is click it.  Once clicked it will contact the validator swarm.  There is a minimum amount of blocks that need to be created before a teleport can be imitiated.  If there is still some time remaining the app will let you know.  In this case we just need to wait.  Once the app contacts the swarm again and is able to achieve concensus with the other swarm nodes our all so familiar gas and transaction confirmation prompt will appear and ask if you want to energize.  Select yes and we are of to the races.  Switch to the transaction history page which is the icon directly to the left of the teleport one you are currently on to watch it finish.  Once complete you have successfully traversed blockchains and can freely use those tokens as you please.  And just becasue we all like to watch things here it is all in action.</p>
+<p><img alt="energize_mobile" src="../img/energize_mobile.gif" style="width:350px;display: block; margin: 0 auto" /></p>
+<p>And thats it! Within a few clicks you can traverse chains with ease all from the comfort of the toilet or... you know wherever you use your mobile device the most.</p>
+<hr />
+<hr />
+<h2 id="how-to-teleport-fmta-using-the-dapp">How to teleport FMTA using the Dapp</h2>
+<h3 id="connect">Connect</h3>
+<p>First we need to make sure we are connected to the dapp with our wallet by clicking the connect button in the top right of the interface.</p>
+<p><img alt="connect button" src="../img/connect.png" style="display: block; margin: 0 auto" /></p>
+<p>If on Desktop you will be given the choice to use Metamask's browser extension or Wallet Connect to connect.</p>
+<p><img alt="option" src="../img/option.png" style="height:width:300px;display: block; margin: 0 auto" /></p>
+<h3 id="select-token-and-network">Select Token and Network</h3>
+<p>Next we need to select the token we wish to teleport and the network we wish to energize it on.</p>
+<p><img alt="teleport" src="../img/teleport.png" /></p>
+<h3 id="time-to-teleport">Time to teleport</h3>
+<p>Once the token and network have ben selected enter the amount you wish to move across chains and click teleport!  Once you have done this if using Metamask a confirmation will pop up asking to confirm the teleport.   </p>
+<p><img alt="maskconf" src="../img/maskconf.png" style="width:350px;display: block; margin: 0 auto" /></p>
+<p>Once confirmed and the transaction has processed the Dapp should automatically prompt you to switch networks to the destination blockchain.</p>
+<p><img alt="netswitch" src="../img/netswitch.png" style="width:350px;display: block; margin: 0 auto" /></p>
+<p>After switching networks the Dapp should automatically prompt you with another Metamask confirmation to allow the tokens to be energized on the destination blockchain.  In some cases some more confirmations may be required before the tokens can be energized.  In this case you will see a warning telling you how many more blocks there are to go before the teleport can be energized.</p>
+<p><img alt="b2g" src="../img/b2g.png" style="display: block; margin: 0 auto" /></p>
+<p>After the required blocks have passed the dapp should automatically prompt you to energize and accept the transaction.  If all is well you will see an alert telling you it has been successful.</p>
+<p><img alt="success" src="../img/success.png" style="display: block; margin: 0 auto" /></p>
+<h3 id="troubleshooting-with-the-teleports">Troubleshooting with the Teleports</h3>
+<p>Multichain programs are fun but as fun as they are they are also complicated due to having to communicate with mutliple networks in a secure and useful fashion.  Ideally your teleports with the Dapp will always automagically prompt you where it needs to while using CiviPort but there may be a reson this is not the case.  Wheter it be network connectivity, a wrongly clicked button or just bad luck you my need to manually energize a teleport once in a while.  Not to worry though because this is very easily done!</p>
+<h3 id="energizing-manually">Energizing Manually</h3>
+<p>There is an app (or option at least) for that!  You may have noticed on the Bridge page that there are two options.  Teleport and Energize.  We have already gone over what Teleport does and is used for and as you have guessed, Energize will help you energize your teleport if for some reason you ever have to manually.</p>
+<p>The first thing you need to do is obtain the transaction hash or "TXID" of the transaction on the blockchain that the teleport was initiated on. Refer to your wallets history to find this as it should be the very last transaction you sent. NOTE: Make sure you are connected the originating network with your wallet as this is required.  Once you have the TXID you simply just need to plug that into the energize tab and click "energize"!</p>
+<p><img alt="energize" src="../img/energize.png" /></p>
+<p>Once this is complete the network switch prompt (like shown above) will pop up and ask you to switch to the destination network and then the comfirmation for the pending teleport will appear.  Confrim and your teleport is complete.</p>
+<p>Of course if you need any further assitance please feel free to come ask for help in either our <a href="https://t.me/CivitasFundamenta">Telegram</a> or <a href="https://discord.gg/S7daQmW">Discord</a> communities where someone is always around to help.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Swap/" class="btn btn-neutral float-left" title="Swap"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Staking/" class="btn btn-neutral float-right" title="Stake">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Swap/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Staking/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

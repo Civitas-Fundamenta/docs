@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Stake - Civitas Fundamenta</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Stake";
+        var mkdocs_page_input_path = "Staking.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Civitas Fundamenta
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Mobile/">Mobile Setup</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Swap/">Swap</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Bridging/">Bridge</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Stake</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#a-few-warnings">A FEW WARNINGS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-the-mobile-app-to-stake">Using the Mobile App to stake</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#adding-a-new-position">Adding a new position</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#compounding">Compounding</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#adding-to-an-existing-position">Adding to an existing position</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#removing-all-or-part-of-your-staked-position">Removing all or part of your staked position</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-the-dapp-online-to-stake">Using the Dapp online to stake</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#disclaimer">Disclaimer</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#navigate-to-the-staking-page">Navigate to the staking page</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#placing-a-new-position">Placing a new position</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#compounding-pending-rewards">Compounding pending rewards</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#taking-pending-rewards">Taking Pending Rewards</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#adding-stake-to-an-existing-position">Adding stake to an existing position</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Mining/">Mining</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Civitas Fundamenta</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Stake</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="staking-the-fundamenta-token">Staking the Fundamenta Token</h1>
+<p>Users who hold the Fundamenta token have the ability to choose and stake their tokens to earn daily yield.  The current system allows for a blanket and unchanging APY of 73%.  The formula to calculate your daily rewards is quite simple and is currently set at <code>Tokens Staked / 500 = Daily Reward</code>.  Currently single accounts have a cap of how much they can stake.  This makes daily staking emissions predictable.  </p>
+<p>Fundamenta staking is available on every single chain we support at the same APY.  Just buy or teleport Fundamenta to the network of your choice and use the Dapp or Mobile app to get staking.</p>
+<h2 id="a-few-warnings">A FEW WARNINGS</h2>
+<p>Fundamenta's staking contracts accross networks have a few quirks that you need to be aware of to maximize rewards and make sure you are not locked into a position when you do not want to be.</p>
+<p>First and foremost Fundamenta staking has a mandatory 48 Hour Lock Period.  The period activates as soon as you place a position.  48 Hours re determined by the amount of blocks that are supposed to approximately be created in a single day.  For example on Ethereum 6500 Blocks would represent approx 24 Hours.   Because each network has different block time targets this number is different between blockchains.  This also means that it is just an approximation of time and not an exact calculation.  There will be times where your position or rewards unlock slightly before or slightly after the advertised lock period in hours/minutes.</p>
+<p>While there is a 48 HR lock after you stake before you can remove your position, your rewards will begin to accrue and be available to withdraw within 24 hrs.  It is possible to <code>TAKE</code> or <code>COMPOUND</code> your daily rewards every 24 hours but take note that by doing so the 48 hour stake removal lock will be reset.  If you would like for your position to be continuously unlocked yet still accrue rewards this is possible by not taking or compunding pending rewards.  All pending rewards will be automatically withdrawn when your position is removed.  It is not required for you to take or compound before you wish to partially or completely remove your position.  <strong>IF YOU WISH TO REMOVE STAKE AND TAKE OR COMPUND FIRST YOU WILL NEED TO WAIT ANOTHER 48 HOURS</strong></p>
+<h2 id="using-the-mobile-app-to-stake">Using the Mobile App to stake</h2>
+<p>As is a current theme with our products it is by far the easiest to create and manage a staking position from our mobile application.  Within a few clicks you can be earning 73% APY Daily on your Fundamenta Tokens.  To get where you need to be in the app so you get started click the second icon from the left (vault). <strong>NOTE: This guide asumes you are already holding Fundamenta</strong></p>
+<p><img alt="mobile staking" src="../img/mobile_staking.jpg" style="width:350px;display: block; margin: 0 auto" /></p>
+<p>Once you arrive on the staking screen choose your desired network and click the card. it will take you to the Fundamenta Staking screen for your selected network.  Here you will be presented with 4 tab selection options <code>TAKE</code>, <code>COMPOUND</code>, <code>ADD</code> and <code>REMOVE</code>.  Hopefully these are self explanitory but we will give a brief explanation for each.</p>
+<ul>
+<li>
+<p><code>TAKE</code> will allow you to withdraw any pending rewards you currently have to your acount</p>
+</li>
+<li>
+<p><code>COMPOUND</code> will all you to roll any pending rewards into your current staking position as long as the account is still under the stake cap per account limit.</p>
+</li>
+<li>
+<p><code>ADD</code> will allow you to add more Fundamenta to your current staking position. NOTE: you will not be able to add to your position if you have pending rewards.  You must take or compund them first. </p>
+</li>
+<li>
+<p><code>REMOVE</code> will allow you to partially or completely remove your staked position.  Unlike <code>ADD</code> you do not need to <code>TAKE</code> or <code>COMPOUND</code> any pending rewards as these are automatucally withdrawn with your stake.  <strong>NOTE: IF YOU TAKE OR COMPOUND REWARDS YOUR STAKE LOCK PERIOD IS RESET TO 48 HOURS AND YOU WILL NEED TO WAIT BEFORE YOU CAN REMOVE YOUR STAKED FUNDAMENTA.  YOU HAVE BEEN WARNED!!!</strong></p>
+</li>
+</ul>
+<p><img alt="mobile staking action" src="../img/mobile_staking_action.jpg" style="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="adding-a-new-position">Adding a new position</h3>
+<p>If you are a new staker choose the <code>ADD</code> select the amount of Fundamenta you want to stake and complete creating a position by clicking add below.  A prompt will appear asking you which gas level you would like to use (Slow, Average, Fast). It will have some information about the fees and give you the option to accept or decline the transaction.</p>
+<p><img alt="mobile add stake" src="../img/add_stake.jpg" style="width:350px;display: block; margin: 0 auto" /></p>
+<p>Make sure to check back every day so see your rewards grow every 24 hours.  If you compound daily your position will grow faster. YAY Math!</p>
+<h3 id="compounding">Compounding</h3>
+<p><strong>Fees Suck</strong>. This is the reality and no one likes paying them.  They most definitely do not enjoy having to pay them twice which is what users would have to do if there was not a way to compound your pending rewards.  In fact V1 of our staking contract did not have a compund function and that was the actual reality.  Thankfully we upgraded shortly after launch to staking V2 with this fancy new compounding ability.  Everyday you will have the ability to compund your pending rewards and because your daily rewards are based on the amount of Fundamenta staked compunding everyday will yield more and more every time you do.  You can compound pending rewards at any time in any amount so long as the amount will not bring your staked position over the configured cap per account currently and 120,000 FMTA.</p>
+<p>The process of compunding is quite simple.  Navigate to the Staking screen for the network of your choice, select the <code>COMPOUND</code> Tab and click the following button.  The gas selection and transaction confirmation prompt will appear. Select yes and wait for the transaction to comoplete. Once complete if you do not see your pending rewards now as part of your staked position slide the screen down to trigger a refresh and you should now show the new staked balance.</p>
+<h3 id="adding-to-an-existing-position">Adding to an existing position</h3>
+<p>So you want to add more Fundamenta to your staked position to get even more of those sweet sweet rewards. Good Choice! Well good news you already know how to do this!  Just navigate to the add Tab on the staking screen of the network of your choice and do thew same thing you did while adding the original position.  Just make sure you <strong>DO NOT</strong> have any pending rewards because adding to an existing position while a user has pending rewards is not possible.  If you do have pending rewards simply <code>TAKE</code> or <code>COMPOUND</code> them and once complete you can freely add to your position so long as it does not bring the account over the stake cap per account.</p>
+<p><img alt="add_mobile" src="../img/add_mobile.gif" style="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="removing-all-or-part-of-your-staked-position">Removing all or part of your staked position</h3>
+<p>So it's time to unstake and do something.  No Problem!  So long as you haven't compounded or taken any pending rewards in the last 48 hours that is.  When placing a new position a lock is activated that lasts approximately 48 hours.  That lock is deactivated after 48 hours and users can remove any amount from their position at will HOWEVER every time you decide to take or compound any pending rewards this stake lock is <strong>REACTIVATED</strong>.  You will then need to wait for the lock to deactivate before you can remove any of your staked position.  Ok great... but what if my position is unlocked and I do have pending rewards? (Spoiler Alert: You Will) Simply remove the amount you wish and all pending rewards will be removed with them.  </p>
+<p>As always on mobile this process is a snap. Navigate to the staking page of the network of your choice, select <code>REMOVE</code> and enter the amount you wish to remove.  Select the remove button below and wait for the transaction to complete.  You have now removed part or all of your position and any pending rewards if there were any.  NOTE: If you only remove part of your position your stake lock period is reset to 48 hours.</p>
+<hr />
+<hr />
+<h2 id="using-the-dapp-online-to-stake">Using the Dapp online to stake</h2>
+<h3 id="disclaimer">Disclaimer</h3>
+<p>While we <strong>REALLY REALLY REALLY</strong> want you to use our mobile app for all things Web3 we understand some users just don't do crypto on mobile.  There is also the idea users just like the convenience of both offerings.  So in that spirit we will go over how to stake the Fundamenta Token using the Dapp online.  </p>
+<p>First things first <strong>DON'T GET PHISHED!!!</strong> If you go all nemo and connect your wallet to a malicious version claiming to be us getting caught in it's net <strong>WE WILL NOT BE ABLE TO HELP YOU</strong> and you will likely lose for than your FMTA.</p>
+<p>Always ensure you are coneccted to our offical url at <strong><a href="https://app.fundamenta.network">https://app.fundamenta.network</a></strong> before connecting or doing anything.</p>
+<p>The following tutorial assumes user will be using the MetaMask desktop extension</p>
+<h3 id="navigate-to-the-staking-page">Navigate to the staking page</h3>
+<p>Page navigation for the app is located floating on the bottom.  Select Stake from the Navbar to arrive on the staking page.</p>
+<p><img alt="staking" src="../img/staking.png" stytle="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="placing-a-new-position">Placing a new position</h3>
+<p>Adding a new position or to an existing one is relatively easy.  As we can see in the above example of the staking page there is an input box that shows our current Fundamenta balance and a <code>max</code> button.  Enter the amount you wish or opt to choose the max button.  Once the amount is entered you will be able to click the <code>Stake</code> button and place a new position.  </p>
+<p><strong>NOTE:</strong> There is a cap to the amount of tokens a single account can stake. Currently this set at 120,000 FMTA.</p>
+<p>Once you click the stake button the all so familiar MetaMask confirmation modal will appear asking you to complete the contract interaction.  Choose yes and once its complete you will have placed a staking position. Congratulations!</p>
+<h3 id="compounding-pending-rewards">Compounding pending rewards</h3>
+<p>Compounding is absolutely the best thing to do if your goal is to grow your stake as much as possible.  Rewards accrue for your position every 24 hours and you will have access to either <code>TAKE</code> or <code>COMPOUND</code> those rewards at any time you like.  Seeing as how these daily rewards are based on your staked balance everytime you compound or add to an existing position making the amount staked rise as will your daily rewards.</p>
+<p>To do this we navigate to <a href="https://app.fundamenta.network/?#/stake">staking page</a> of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the <code>TAKE</code> and <code>COMPOUND</code> options on the top right of the staking card on screen.</p>
+<p><img alt="take_compound" src="../img/take_compound.png" stytle="width:350px;display: block; margin: 0 auto" /></p>
+<h3 id="taking-pending-rewards">Taking Pending Rewards</h3>
+<h3 id="adding-stake-to-an-existing-position">Adding stake to an existing position</h3>
+<p>Adding to an existing position is possible as well.  The process is exactly the same as placing a new position with one caveat.  Users cannot have any pending rewards. If a user wants to add to a position and has pending rewards they must <code>TAKE</code> or <code>COMPOUND</code> those rewards first.  Once that is completed users are free to add to thier position so long as it does not bring the account over the configured stake cap per account.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Bridging/" class="btn btn-neutral float-left" title="Bridge"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Mining/" class="btn btn-neutral float-right" title="Mining">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Bridging/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Mining/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
