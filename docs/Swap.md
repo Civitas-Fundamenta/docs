@@ -20,6 +20,20 @@ All you have to do now is select the option you want and click the Swap on butto
 
 ## Swap via the Fundamenta Mobile App
 
+Currently the swap interface in the mobile app isn't quite as advanced as the version available online but it uses the same technology under the hood and will be getting updates over time to start utilizing all that it's big brother can offer and all while on the go!  
+
+To swap a tokens you will need to choose the coin you want to *spend* on the network of your choice from the balances screen. Once you are on the coins screen you will see either 2 or 3 options.  The options `TRANSFER` and `SWAP` will be available for any token you have in your wallet.  The third option of `TELEPORT` will only appear for tokens that are CiviPort compatible.  Once you select `SWAP` we are ready to start.
+
+The swap interface works a litte differetly than some may be used to.  In the amount field you will see the balance of the token page you are currently on.  Enter the amount of this balance you wish to spend on the swap.  After this is complete select the swap button below and a prompt will appear showing you both the expected output and minimum ouput that will be recieved.
+
+![Swp_Confirm](img/swap_confirm.jpg){: style="width:350px;display: block; margin: 0 auto"}
+
+If you are satisfied with the results of what you will recieve compared to what you are spending select yes.  The prompt to select gas and confirm the transaction will then appear.  Select yes and your swap is complete!
+
+Want to see it in action?  We thought you might.  
+
+![Swappig_GIF](img/mobile_swap.gif){: style="width:350px;display: block; margin: 0 auto"}
+
 ## Swap via the dedicated interface
 
 ***Coming Soon ;)***
