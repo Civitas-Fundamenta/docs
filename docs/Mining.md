@@ -37,4 +37,32 @@ If you wish to remove LP tokesn you can once your lock period has ended.  You ar
 
 ![remove_mobile](img/remove_mining.jpg){: style="width: 350px;display: block; margin: 0 auto"}
 
+## Liquidity mining with the Dapp online
+
+Mining with the dapp follows the same concept as the mobile app but the flow is a bit different.  Navigate to the [swap page](https://app.fundamenta.network/#/swap) and you will see pool options (or no options) depending on the network you are connected to.  Click on the pair you wish to interact with and you will see the following screen.
+
+![add_position_desktop](img/add_position_desktop.png){: stytle="display: block; margin: 0 auto"}
+
+### Adding a new position
+
+Adding a new position is pretty straight forward.  First you must choose one of the 3 available lock periods of 5, 10 or 15 days.  Once selected enter the amount of LP tokens you wish to mine with or use the max button to mine them all.  One the amount is entered all you have to do is click `Add To Position` and follow the transaction prompts from metamask.  **NOTE:**If this is the first time you are interacting with the liquidity mining contracts pool pair you will need to confirm an approval first.  Once approved and the transaction is confrimed your position will be placed and the LP tokens will be moved to the liquidity mining contract. 
+
+### Harvesting rewards
+
+To harvest your rewards you will need wait until your position is unlocked.  Once it has reached this state you can find the `Harvest Rewards` buttton on the top right of both the add and remove parts of the card.  Harevesting rewards will distribute the lock periods rewards and relock your current position with the lock period chosen prior.  
+
+### Harvesting rewards and adding to an existing position
+
+When your lock period is complete you will have the option to keep your basis points and grow them.  This will be explained in another tutorial.  This can be done by either withdrawing your rewards via the previous described step or you have the option to add more LP tokens to your position at the end of the lock period without sacrificing any bonuses.  To to this when the position has become unlocked add to your position like you did [originally](#adding-a-new-position).  This will add the chosen LP Token amount to your position, harvest your rewards and grow your basis points. 
+
+### Removing a position
+
+A position can not be partially removed so if you wish to remove LP tokens the whole position must be removed.  **IMPORTANT NOTE:** If you harvest rewards your lock period will be reset and you will not be able to remove your position. **Rewards are automatically harvested when your position is removed**
+
+On the top left of the pool pair mining card you will see a slider toggle labled `Staking`.  If you click this slider it will then read `Unstaking` and bring you to the position removal card seen below.
+
+![remove_mining_desktop](img/remove_mining_desktop.png): stytle="display: block; margin: 0 auto"}
+
+Once here all we need to do is ensure our position is unlocked and click the `Remove Position` button.  The transaction confirmation will pop up, confirm it and your LP tokens along with your rewards will be sent to your wallet.
+
 
