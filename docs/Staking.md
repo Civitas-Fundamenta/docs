@@ -12,6 +12,9 @@ First and foremost Fundamenta staking has a mandatory 48 Hour Lock Period.  The 
 
 While there is a 48 HR lock after you stake before you can remove your position, your rewards will begin to accrue and be available to withdraw within 24 hrs.  It is possible to `TAKE` or `COMPOUND` your daily rewards every 24 hours but take note that by doing so the 48 hour stake removal lock will be reset.  If you would like for your position to be continuously unlocked yet still accrue rewards this is possible by not taking or compunding pending rewards.  All pending rewards will be automatically withdrawn when your position is removed.  It is not required for you to take or compound before you wish to partially or completely remove your position.  **IF YOU WISH TO REMOVE STAKE AND TAKE OR COMPUND FIRST YOU WILL NEED TO WAIT ANOTHER 48 HOURS**
 
+___
+___
+
 ## Using the Mobile App to stake
 
 As is a current theme with our products it is by far the easiest to create and manage a staking position from our mobile application.  Within a few clicks you can be earning 73% APY Daily on your Fundamenta Tokens.  To get where you need to be in the app so you get started click the second icon from the left (vault). **NOTE: This guide asumes you are already holding Fundamenta**

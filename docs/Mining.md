@@ -4,6 +4,9 @@ Civitas Fundamenta has allocated 10 million FMTA of the current 50 million suppl
 
 **NOTE:** This guide assumes you have already added liquidty to one one of the participating pools and are holding the require LP tokens to utilize the liquidity mining program. 
 
+___
+___
+
 ## Liquidity mining with the mobile application
 
 ### Adding required LP Tokens and enabling mining
@@ -37,6 +40,9 @@ If you wish to remove LP tokesn you can once your lock period has ended.  You ar
 
 ![remove_mobile](img/remove_mining.jpg){: style="width: 350px;display: block; margin: 0 auto"}
 
+___
+___
+
 ## Liquidity mining with the Dapp online
 
 Mining with the dapp follows the same concept as the mobile app but the flow is a bit different.  Navigate to the [swap page](https://app.fundamenta.network/#/swap) and you will see pool options (or no options) depending on the network you are connected to.  Click on the pair you wish to interact with and you will see the following screen.
@@ -65,4 +71,10 @@ On the top left of the pool pair mining card you will see a slider toggle labled
 
 Once here all we need to do is ensure our position is unlocked and click the `Remove Position` button.  The transaction confirmation will pop up, confirm it and your LP tokens along with your rewards will be sent to your wallet.
 
+___
+___
+
+## Liquidity mining rewards explained
+
+Coming Soon
 

@@ -8,6 +8,9 @@ The purpose of this part of the guide is to guide you through the teleportation 
 
 ![bridge Dapp](img/bridge.png)
 
+___
+___
+
 ## How to Teleport using the Fundamenta Mobile App
 
 This section is about using our bridge via our easy to use mobile application.  It is MUCH simpler of a process than with the Dapp and we reccomend newer users take advatage of this. To use the bridge via the app with a compatible token all you need to to is select it from your balance screen.  Make sure you select the network you want to teleport from. If the token is CiviPort compatible the option `TELEPORT` will be available for selection along with `TRANSFER` and `SWAP`.  I think you can guess what is next but just in case you don't we will show you.
