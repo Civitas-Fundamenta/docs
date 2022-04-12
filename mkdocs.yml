@@ -3,6 +3,7 @@ nav:
     - Home: index.md
     - Mobile Setup: Mobile.md
     - Swap: Swap.md
+    - Wrap: Wrap.md
     - Bridge: Bridging.md
     - Stake: Staking.md
     - Mining: Mining.md
