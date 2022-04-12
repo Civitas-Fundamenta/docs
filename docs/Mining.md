@@ -61,7 +61,7 @@ A position can not be partially removed so if you wish to remove LP tokens the w
 
 On the top left of the pool pair mining card you will see a slider toggle labled `Staking`.  If you click this slider it will then read `Unstaking` and bring you to the position removal card seen below.
 
-![remove_mining_desktop](img/remove_mining_desktop.png): stytle="display: block; margin: 0 auto"}
+![remove_mining_desktop](img/remove_mining_desktop.png){: stytle="display: block; margin: 0 auto"}
 
 Once here all we need to do is ensure our position is unlocked and click the `Remove Position` button.  The transaction confirmation will pop up, confirm it and your LP tokens along with your rewards will be sent to your wallet.
 
