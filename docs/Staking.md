@@ -85,15 +85,15 @@ Adding a new position or to an existing one is relatively easy.  As we can see i
 
 Once you click the stake button the all so familiar MetaMask confirmation modal will appear asking you to complete the contract interaction.  Choose yes and once its complete you will have placed a staking position. Congratulations!
 
-### Compounding pending rewards
+### Compounding or taking pending rewards
 
 Compounding is absolutely the best thing to do if your goal is to grow your stake as much as possible.  Rewards accrue for your position every 24 hours and you will have access to either `TAKE` or `COMPOUND` those rewards at any time you like.  Seeing as how these daily rewards are based on your staked balance everytime you compound or add to an existing position making the amount staked rise as will your daily rewards.
 
-To do this we navigate to [staking page](https://app.fundamenta.network/?#/stake) of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the `TAKE` and `COMPOUND` options on the top right of the staking card on screen.
+Compounding and taking your rewards are done in the same place. To do this we navigate to [staking page](https://app.fundamenta.network/?#/stake) of the Dapp.  Of course make sure you are connected to the proper network. Once there you will find the `TAKE` and `COMPOUND` options on the top right of the staking card on screen.
 
 ![take_compound](img/take_compound.png){: stytle="width:350px;display: block; margin: 0 auto"}
 
-### Taking Pending Rewards
+Depending on what you wish to do click on either `TAKE` or `COMPOUND`.  The prompt to confirm the confirmation will come up, confirm it and wait for the transaction to complete.  If you compounded you will now see the rewards as part of your existing position. If you chose to take they will have been added to your wallets balance.
 
 ### Adding stake to an existing position
 
